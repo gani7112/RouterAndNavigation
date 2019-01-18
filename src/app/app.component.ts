@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {Router,ActivatedRoute} from '@angular/router'
 
 @Component({
   selector: 'app-root',
@@ -7,4 +8,11 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'RoutingAndNavigation';
+  constructor(private Router:ActivatedRoute){
+    
+  }
+
+  Hello(){
+    this.Router.paramMap.subscribe(data =>console.log(data))
+  }
 }

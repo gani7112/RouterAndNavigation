@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+*{
+    margin:0px;
+    padding:0px;
+    border:0px;
+    box-sizing: border-box;
+}
+
+li,ul{
+    list-style: none;
+}
+
+.row{
+    display:flex;
+    width:100%;
+}
+
+.column1of5{
+    flex:0 0 20%;
+}
+
+.padding5{padding:5px;
+}

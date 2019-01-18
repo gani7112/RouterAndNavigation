@@ -1,0 +1,18 @@
+.active{
+    background-color: grey;
+    color: white;
+}
+a{
+    text-decoration: none;
+    background-color: rgb(236, 225, 225);
+    text-align:center;
+    margin-left: 2px;
+    color: black;
+    padding:20px;
+    font-size: 2rem;
+    
+}
+.active{
+    background-color: grey;
+    color: white;
+}
